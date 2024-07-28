@@ -12,5 +12,4 @@ public class ServerWOFacade {
 	serverFacade.startServer(server);
 	serverFacade.closeServer(server);
     }
-    
 }

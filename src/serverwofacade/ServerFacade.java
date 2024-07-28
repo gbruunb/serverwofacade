@@ -7,9 +7,6 @@ package serverwofacade;
 public class ServerFacade {
     private static ServerFacade myFacadeObj = null;
 
-    private ServerFacade() {
-    }
-
     public static ServerFacade getFacade() {
         if (myFacadeObj == null) {
             myFacadeObj = new ServerFacade();
